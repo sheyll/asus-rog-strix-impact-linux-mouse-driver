@@ -1,0 +1,8 @@
+- package:
+  - name: foobar
+  - section:
+    - name: test:foobar-test
+    - message:
+      - name: Redundant build-depends entry
+      - depends: tasty-discover
+
